@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/pexels-asadphoto-1450340.jpg");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    padding: 15px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+#links {
+    list-style-type: none;
+}
+
+#links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #fff;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+button {
+    background-color: #21312d;
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.info-header {
+    padding: 1px;
+    font-size: 50px;
+}
+
+#introduction {
+    position: relative;
+    width: 50%;
+    background-color: black;
+    opacity: 0.6;
+    padding: 8px;
+    border-radius: 3px;
+    top: 100px;
+    margin-left: 20px;
+    margin-bottom: 400px;
+}
+
+#introduction p {
+    color: #fff;
+    font-size: 20px;
+}
+
+table {
+    color: #fff;
+    background-color: black;
+    opacity: 0.7;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+table th {
+    font-weight: bold;
+}
+table td {
+    text-align: center;
+}
+
+#about-us {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.about-us-header {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#contact-us-container {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#contact-us-container div {
+    flex: 1;
+    padding: 20px;
+}
+
+#contact-us-container input {
+    margin: 5px;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+form {
+    text-align: center;
+}
+
+#recommendations {
+    width: 30%;
+    padding: 20px;
+    padding-top: 80px;
+    color: #fff;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.card {
+    padding: 10px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card img {
+    width: 100%;
+}
+
+#introduction-container div {
+    float: left;
+}
